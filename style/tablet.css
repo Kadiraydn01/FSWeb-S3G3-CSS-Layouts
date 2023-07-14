@@ -1,6 +1,12 @@
-@media (max-width: 800px) {
+@media (max-width: 808px) {
   .navbar nav {
     flex-direction: column;
+    justify-content: space-around;
+  }
+  .navbar nav a {
+    width: 20vh;
+    margin: auto;
+    border-radius: 50%;
   }
   .ortaalt {
     align-items: center;
